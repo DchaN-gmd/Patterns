@@ -394,6 +394,12 @@
 "Assets/Scripts/Factory Method/Unit/BlizzardMage.cs"
 "Assets/Scripts/Factory Method/Unit/FireMage.cs"
 "Assets/Scripts/Factory Method/Unit/Mage.cs"
+"Assets/Scripts/Strategy/IMove.cs"
+"Assets/Scripts/Strategy/Run.cs"
+"Assets/Scripts/Strategy/Steal.cs"
+"Assets/Scripts/Strategy/Unit.cs"
+"Assets/Scripts/Strategy/UnitMoveService.cs"
+"Assets/Scripts/Strategy/Walk.cs"
 -langversion:9.0
 
 /deterministic
