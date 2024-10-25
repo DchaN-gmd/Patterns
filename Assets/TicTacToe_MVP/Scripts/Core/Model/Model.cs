@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace MVP
 {
-    public abstract class Model
+    public class Model
     {
         public const int ValueToWin = 3;
 
@@ -13,11 +13,11 @@ namespace MVP
         public readonly int Width;
         protected SignType CurrentSign;
 
-        protected View View;
+        public event Action<Cell> CellGettingSign;
+        public event Action Winning;
 
-        public Model(View view, int height, int width, SignType startSignType)
+        public Model(int height, int width, SignType startSignType)
         {
-            View = view;
             Height = height;
             Width = width;
             CurrentSign = startSignType;
@@ -28,14 +28,14 @@ namespace MVP
             if (cell.Sign != SignType.None) return;
 
             cell.SetSign(CurrentSign);
-            View.UpdateCellView(cell);
+            CellGettingSign?.Invoke(cell);
 
             ChangeCurrentSign();
         }
 
-        public virtual void TryToWin()
+        public virtual void TryToWin(IReadOnlyList<Cell> cells)
         {
-            if (IsWin()) View.ShowWin();
+            if (IsWin(cells)) Winning?.Invoke();
         }
 
         private void ChangeCurrentSign()
@@ -52,10 +52,8 @@ namespace MVP
             }
         }
 
-        private bool IsWin()
+        private bool IsWin(IReadOnlyList<Cell> cells)
         {
-            var cells = View.Cells;
-
             var cellsDictionary = CreateCellDictionary();
 
             for (int i = 0; i < cells.Count; i++)
@@ -74,16 +72,16 @@ namespace MVP
         {
             var position = cellsDictionary.First((x) => x.Value == index).Key;
 
-            var horizontal = CalculateAxisMatchCount(cellsDictionary, new Vector2Int(1, 0),
+            var horizontal = CalculateAxisMatchCount(cells, cellsDictionary, new Vector2Int(1, 0),
                 position, cells[index].Sign);
 
-            var vertical = CalculateAxisMatchCount(cellsDictionary, new Vector2Int(0, 1),
+            var vertical = CalculateAxisMatchCount(cells, cellsDictionary, new Vector2Int(0, 1),
                 position, cells[index].Sign);
 
-            var diagonalFirst = CalculateAxisMatchCount(cellsDictionary, new Vector2Int(1, 1),
+            var diagonalFirst = CalculateAxisMatchCount(cells, cellsDictionary, new Vector2Int(1, 1),
                 position, cells[index].Sign);
 
-            var diagonalSecond = CalculateAxisMatchCount(cellsDictionary, new Vector2Int(-1, 1),
+            var diagonalSecond = CalculateAxisMatchCount(cells, cellsDictionary, new Vector2Int(-1, 1),
                 position, cells[index].Sign);
 
             var maxCount = Mathf.Max(horizontal, vertical, diagonalFirst, diagonalSecond);
@@ -108,10 +106,9 @@ namespace MVP
             return cellsDictionary;
         }
 
-        private int CalculateAxisMatchCount(Dictionary<Vector2, int> cellsDictionary, Vector2 direction, Vector2 position, SignType signType)
+        private int CalculateAxisMatchCount(IReadOnlyList<Cell> cells, Dictionary<Vector2, int> cellsDictionary, Vector2 direction, Vector2 position, SignType signType)
         {
             var directionCount = 1;
-            var cells = View.Cells;
 
             var currentPosition = position + direction;
 

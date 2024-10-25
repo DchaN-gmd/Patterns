@@ -60,6 +60,7 @@
     <Compile Include="Assets\Patterns\Scripts\Factory Method\Factory\BlueCreator.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\Intefaces\IExitable.cs" />
     <Compile Include="Assets\Patterns\Scripts\Factory Method\Factory\RedCreator.cs" />
+    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Bootstrap.cs" />
     <Compile Include="Assets\Patterns\Scripts\Abstract Factory\Factory\RedFactory.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\States\PauseState.cs" />
     <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Model\Model.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\Patterns\Scripts\Decorator\WarriorArmor.cs" />
     <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Presenter\Presenter.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\Intefaces\IEnterable.cs" />
+    <Compile Include="Assets\TicTacToe_MVP\Scripts\Extensions\UI\ButtonExtensions.cs" />
     <Compile Include="Assets\Patterns\Scripts\Strategy\Steal.cs" />
     <Compile Include="Assets\Patterns\Scripts\Decorator\DecoratorLevel.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\States\PlayingState.cs" />
@@ -83,6 +85,7 @@
     <Compile Include="Assets\Patterns\Scripts\Abstract Factory\Units\Archers\BlueArcher.cs" />
     <Compile Include="Assets\Patterns\Scripts\Abstract Factory\Factory\UnitsFactory.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\Intefaces\IState.cs" />
+    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\View\DefaultView.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\StateMachine.cs" />
     <Compile Include="Assets\Patterns\Scripts\Strategy\Walk.cs" />
     <Compile Include="Assets\Patterns\Scripts\Abstract Factory\AbstarctFactoryMainScript.cs" />
@@ -106,13 +109,8 @@
     <Compile Include="Assets\Patterns\Scripts\State Machine\Presenters\NotificationPresenter.cs" />
     <Compile Include="Assets\Patterns\Scripts\State Machine\Presenters\BasePresenterState.cs" />
     <Compile Include="Assets\Patterns\Scripts\Abstract Factory\Units\Mage\BlueMage.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Cell.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Extensions\UI\ButtonExtensions.cs" />
     <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\SignParameter.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Model\DefaultModel.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\View\DefaultView.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Presenter\DefaultPresenter.cs" />
-    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Bootstrap.cs" />
+    <Compile Include="Assets\TicTacToe_MVP\Scripts\Core\Cell.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

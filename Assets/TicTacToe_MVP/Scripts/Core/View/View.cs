@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -11,12 +12,7 @@ namespace MVP
 
         public IReadOnlyList<Cell> Cells => _cells;
 
-        protected Presenter _presenter;
-
-        public void Init(Presenter presenter)
-        {
-            _presenter = presenter;
-        }
+        public event Action<Cell> CellClicked;
 
         private void OnEnable()
         {
@@ -46,6 +42,6 @@ namespace MVP
         }
 
         private void OnCellClicked(Cell cell) =>
-            _presenter.OnCellClicked(cell);
+            CellClicked?.Invoke(cell);
     }
 }

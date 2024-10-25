@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|c:\\users\\dchan\\documents\\github\\patterns\\assets\\tictactoe_mvp\\scripts\\core\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|c:\\users\\dchan\\documents\\github\\patterns\\assets\\tictactoe_mvp\\scripts\\core\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|c:\\users\\dchan\\documents\\github\\patterns\\assets\\tictactoe_mvp\\scripts\\core\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|c:\\users\\dchan\\documents\\github\\patterns\\assets\\tictactoe_mvp\\scripts\\core\\presenter\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\assets\\tictactoe_mvp\\scripts\\core\\presenter\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\presenter\\presenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|c:\\users\\dchan\\documents\\github\\patterns\\assets\\tictactoe_mvp\\scripts\\core\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\assets\\tictactoe_mvp\\scripts\\core\\view\\defaultview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\view\\defaultview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\assets\\tictactoe_mvp\\scripts\\core\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\view\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\assets\\tictactoe_mvp\\scripts\\core\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\assets\\tictactoe_mvp\\scripts\\core\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{858AF5F7-445E-B995-6B66-DC9C6655EEF1}|Assembly-CSharp.csproj|solutionrelative:assets\\tictactoe_mvp\\scripts\\core\\model\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,43 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DefaultView.cs",
+              "DocumentMoniker": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\DefaultView.cs",
+              "RelativeDocumentMoniker": "Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\DefaultView.cs",
+              "ToolTip": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\DefaultView.cs",
+              "RelativeToolTip": "Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\DefaultView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T08:58:49.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Bootstrap.cs",
               "DocumentMoniker": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Bootstrap.cs",
               "RelativeDocumentMoniker": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Bootstrap.cs",
               "ToolTip": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Bootstrap.cs",
               "RelativeToolTip": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Bootstrap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:52:08.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Model\\Model.cs",
               "RelativeDocumentMoniker": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Model\\Model.cs",
               "ToolTip": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Model\\Model.cs",
               "RelativeToolTip": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Model\\Model.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:52:02.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Presenter.cs",
               "DocumentMoniker": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Presenter\\Presenter.cs",
               "RelativeDocumentMoniker": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Presenter\\Presenter.cs",
               "ToolTip": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\Presenter\\Presenter.cs",
               "RelativeToolTip": "Assets\\TicTacToe_MVP\\Scripts\\Core\\Presenter\\Presenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:52:00.38Z",
               "EditorCaption": ""
@@ -86,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "View.cs",
               "DocumentMoniker": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\View.cs",
               "RelativeDocumentMoniker": "Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\View.cs",
               "ToolTip": "C:\\Users\\Dchan\\Documents\\GitHub\\Patterns\\Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\View.cs",
               "RelativeToolTip": "Assets\\TicTacToe_MVP\\Scripts\\Core\\View\\View.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:51:22.147Z",
               "EditorCaption": ""
