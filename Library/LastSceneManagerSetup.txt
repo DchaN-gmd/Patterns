@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TicTacToe_MVP/Scenes/TicTacToe.unity
+- path: Assets/_R3Testing/Scenes/R3Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
